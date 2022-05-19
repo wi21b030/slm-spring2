@@ -23,4 +23,9 @@ public class TestController {
     public String Welcome(){
         return "Welcome!";
     }
+
+    @RequestMapping("/test")
+    public String test(){
+        return "Test!";
+    }
 }
